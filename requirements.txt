@@ -1,0 +1,9 @@
+numpy
+scipy
+gym
+matplotlib
+pygame
+h5py
+tensorflow
+-e git+https://github.com/spring01/simatrp.git#egg=simatrp
+-e git+https://github.com/spring01/drlbox.git#egg=drlbox
