@@ -7,7 +7,7 @@ import gym
 import importlib
 import numpy as np
 from tensorflow.python.keras.layers import Input, Conv1D, Flatten, Dense, Activation
-from drlbox.env.envwrapper import HistoryStacker
+from history import HistoryStacker
 from obs_dmm import ObsDMM
 from act_single import ActSingle
 from drlbox.trainer import make_trainer
